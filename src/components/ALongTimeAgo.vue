@@ -1,5 +1,5 @@
 <template>
-    <div v-show="show == true" class="ALongTimeAgo__container">
+    <div class="ALongTimeAgo__container">
 
         <div class="ALongTimeAgo__background">
 
@@ -14,18 +14,21 @@
 
 
 <script>
+    import $ from 'jquery';
     export default {
         name: 'ALongTimeAgo',
         data() {
             return {
                 text: 'A long time ago in a galaxy far, far away....',
-                show: true
             }
         },
         mounted() {
             setTimeout(function(){
-                this.show = false;
-            },2000);
+               $('.ALongTimeAgo__container').fadeOut(200);
+            },5000);
+            setTimeout(function(){
+               $('.app__logo').removeClass('big');
+            },8000);
         }
     }
 </script>
