@@ -12,11 +12,16 @@ export default {
 </script>
 
 <style lang="scss">
- body {
-   background-image: url('./assets/Stars.gif');
-   margin: 0;
-   padding: 0;
- }
+  body {
+    background-image: url('./assets/Stars.gif');
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+  html {
+    height: 100%;
+  }
 
  .app {
    &__logo {
@@ -24,6 +29,12 @@ export default {
      margin: 0 auto;
      transform: scale(0.4);
      transition: 2s;
+
+    @media screen and (min-width: 320px) and (max-width: 1023px){
+      width: 100%;
+     height: auto;
+
+    }
 
      &.big {
        transform: scale(1);

@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <MenuButtons></MenuButtons>
         <themeMusic></themeMusic>
         <ALongTimeAgo></ALongTimeAgo>
     </div>
@@ -9,9 +10,10 @@
 <script>
     import ALongTimeAgo from '@/components/ALongTimeAgo';
     import themeMusic from '@/components/themeMusic';
+    import MenuButtons from '@/components/MenuButtons';
     export default {
         name: 'Home',
-        components: {ALongTimeAgo,themeMusic}
+        components: {ALongTimeAgo,themeMusic,MenuButtons}
 
 
     }

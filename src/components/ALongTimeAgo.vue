@@ -29,6 +29,9 @@
             setTimeout(function(){
                $('.app__logo').removeClass('big');
             },8000);
+            setTimeout(function(){
+               $('.content__menu').removeClass('hide');
+            },9000);
         }
     }
 </script>
