@@ -1,14 +1,16 @@
 <template>
     <div class="content__menu hide">
-        <a class="content__menu--button" href="">Play Game</a>
-        <a class="content__menu--button" href="">About Star Wars</a>
-        <a class="content__menu--button" href="">About Me</a>
+        <Buttons class="content__menu--button" text="Play Game" path="planets"></Buttons>
+        <Buttons class="content__menu--button" text="About Star Wars" path="aboutstarwars"></Buttons>
+        <Buttons class="content__menu--button" text="About Me" path="aboutme"></Buttons>
     </div>
 </template>
 
 <script>
+    import Buttons from '@/components/Buttons'
     export default {
-         name: 'ALongTimeAgo',
+         name: 'MenuButtons',
+         components: {Buttons}
     }
 </script>
 

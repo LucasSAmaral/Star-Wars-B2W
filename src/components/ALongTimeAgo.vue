@@ -31,6 +31,7 @@
             },8000);
             setTimeout(function(){
                $('.content__menu').removeClass('hide');
+               $('.ALongTimeAgo__container').remove();
             },9000);
         }
     }
