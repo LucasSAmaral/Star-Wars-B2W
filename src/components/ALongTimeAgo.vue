@@ -35,7 +35,6 @@
                 },8000);
                 setTimeout(()=>{
                     $('.content__menu').removeClass('hide');
-                    $('.ALongTimeAgo__container').remove();
                 },9000);
             } else {
                 this.show = false;
