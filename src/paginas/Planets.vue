@@ -75,7 +75,8 @@
 
         &__content {
             background-color: #000;
-            border: 1px solid #e1b100;
+            border: 4px solid #e1b100;
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
             justify-content: center;

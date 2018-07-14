@@ -27,13 +27,13 @@
             let screenWidth = window.innerWidth;
 
             if(screenWidth >= 1024) {
-                setTimeout(function(){
+                setTimeout(()=>{
                     $('.ALongTimeAgo__container').fadeOut(200);
                 },5000);
-                setTimeout(function(){
+                setTimeout(()=>{
                     $('.app__logo').removeClass('big');
                 },8000);
-                setTimeout(function(){
+                setTimeout(()=>{
                     $('.content__menu').removeClass('hide');
                     $('.ALongTimeAgo__container').remove();
                 },9000);
