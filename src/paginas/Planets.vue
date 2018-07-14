@@ -2,19 +2,10 @@
 <div class="planets__container">
 
     <div class="planets__content">
-        <h1 class="planets__name">
-            {{planets.name}}
-        </h1>
+        
+        <randomPlanets :planets="this.planets"></randomPlanets>
 
-        <p><span>Population:</span> {{planets.population}}</p>
-
-        <p><span>Climate:</span> {{planets.climate}}</p>
-
-        <p><span>Terrain:</span> {{planets.terrain}}</p>
-
-        <p><span>Featured in</span> {{planets.films.length}} <span>films</span></p>
-
-        <Loading v-show="loading"></Loading>
+        <Loading v-if="loading"></Loading>
     </div>
     <div class="planets__buttons">
         <button @click="randomPlanet()" class="button">Next</button>
@@ -28,9 +19,10 @@
 <script>
     import Buttons from '@/components/Buttons'
     import Loading from '@/components/Loading'
+    import randomPlanets from '@/components/randomPlanets'
     export default {
         name: 'Planets',
-        components: {Buttons,Loading},
+        components: {Buttons,Loading,randomPlanets},
         data() {
             return {
                 planets: '',
@@ -85,6 +77,7 @@
         }
 
         &__content {
+            min-height: 300px;
             background-color: #000;
             border: 4px solid #e1b100;
             box-sizing: border-box;
