@@ -55,11 +55,13 @@
     .planets {
         &__container {
             width: 300px;
-            height: 400px;
+            height: 100vh;
             margin: 0 auto;
             color: #e1b100;
             font-family: 'News Cycle', sans-serif;
-            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             .button {
                 margin-bottom: 0;
