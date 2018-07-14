@@ -6,13 +6,13 @@
             {{planets.name}}
         </h1>
 
-        <p>Population: {{planets.population}}</p>
+        <p><span>Population:</span> {{planets.population}}</p>
 
-        <p>Climate: {{planets.climate}}</p>
+        <p><span>Climate:</span> {{planets.climate}}</p>
 
-        <p>Terrain: {{planets.terrain}}</p>
+        <p><span>Terrain:</span> {{planets.terrain}}</p>
 
-        <p>Featured in {{planets.films.length}} films</p>
+        <p><span>Featured in</span> {{planets.films.length}} <span>films</span></p>
 
         <Loading v-show="loading"></Loading>
     </div>
@@ -97,6 +97,11 @@
             p {
                 text-align: center;
                 letter-spacing: 3px;
+
+                span {
+                    color: #ffffff;
+                    font-weight: bold;
+                }
             }
 
         }
