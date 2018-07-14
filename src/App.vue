@@ -22,4 +22,12 @@ export default {
     height: 100%;
   }
 
+  #app {
+    padding: 10px;
+
+    @media (min-width: 767px) {
+      padding: 0;
+    }
+  }
+
 </style>

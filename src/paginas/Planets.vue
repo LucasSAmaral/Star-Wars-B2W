@@ -13,6 +13,8 @@
         <p>Terrain: {{planets.terrain}}</p>
 
         <p>Featured in {{planets.films.length}} films</p>
+
+        <Loading v-show="loading"></Loading>
     </div>
     <div class="planets__buttons">
         <button @click="randomPlanet()" class="button">Next</button>
@@ -20,28 +22,36 @@
         <Buttons class="button" text="About Me" path="aboutme"></Buttons>
     </div>
     
-
 </div>   
 </template>
 
 <script>
     import Buttons from '@/components/Buttons'
+    import Loading from '@/components/Loading'
     export default {
         name: 'Planets',
-        components: {Buttons},
+        components: {Buttons,Loading},
         data() {
             return {
-                planets: ''
+                planets: '',
+                loading: true
             }
         },
         methods: {
             randomPlanet: function() {
+
+                this.loading = true;
+
                 let randomNumber = Math.floor(Math.random() * (61 - 1 + 1)) + 1;
 
                 this.$http.get('https://swapi.co/api/planets/' + randomNumber)
                 .then(response=>{
                     this.planets = response.data
                 });
+
+                setTimeout(()=>{
+                    this.loading = false;
+                },500);
             }
         },
         created() {
@@ -82,6 +92,7 @@
             justify-content: center;
             border-radius: 5px;
             padding: 10px;
+            position: relative;
 
             p {
                 text-align: center;

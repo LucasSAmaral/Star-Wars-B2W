@@ -61,6 +61,11 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
+
+            .button {
+                margin-bottom: 0;
+                margin-left: 15px;
+            }
         }
     }
 </style>
