@@ -1,5 +1,5 @@
 <template>
-    <div class="ALongTimeAgo__container">
+    <div v-show="show" class="ALongTimeAgo__container">
 
         <div class="ALongTimeAgo__background">
 
@@ -20,19 +20,26 @@
         data() {
             return {
                 text: 'A long time ago in a galaxy far, far away....',
+                show: true
             }
         },
         mounted() {
-            setTimeout(function(){
-               $('.ALongTimeAgo__container').fadeOut(200);
-            },5000);
-            setTimeout(function(){
-               $('.app__logo').removeClass('big');
-            },8000);
-            setTimeout(function(){
-               $('.content__menu').removeClass('hide');
-               $('.ALongTimeAgo__container').remove();
-            },9000);
+            let screenWidth = window.innerWidth;
+
+            if(screenWidth >= 1024) {
+                setTimeout(function(){
+                    $('.ALongTimeAgo__container').fadeOut(200);
+                },5000);
+                setTimeout(function(){
+                    $('.app__logo').removeClass('big');
+                },8000);
+                setTimeout(function(){
+                    $('.content__menu').removeClass('hide');
+                    $('.ALongTimeAgo__container').remove();
+                },9000);
+            } else {
+                this.show = false;
+            }
         }
     }
 </script>

@@ -60,6 +60,15 @@
             color: #e1b100;
             font-family: 'News Cycle', sans-serif;
             padding-top: 80px;
+
+            .button {
+                margin-bottom: 0;
+                margin-left: 15px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
         }
 
         &__content {

@@ -8,9 +8,13 @@
             this.themeSong = document.getElementById('themeSong');
         },
         mounted() {
-             setTimeout(function(){
-               this.themeSong.play();
-            },5000);
+            let screenWidth = window.innerWidth;
+
+            if(screenWidth >= 1024) {
+                setTimeout(function(){
+                    this.themeSong.play();
+                },5000);
+            }
         }   
     }
 </script>

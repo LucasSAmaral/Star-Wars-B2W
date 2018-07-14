@@ -18,12 +18,21 @@
     .content {
         &__menu {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
-            margin-top: -130px;
+            padding: 10px;
             transition: 4s;
+
+            @media (min-width: 767px) {
+                margin-top: -130px;
+                flex-direction: row;
+                padding: 0;
+            }
+
             &.hide {
-                opacity: 0;
+                @media (min-width: 1024px) {
+                    opacity: 0;
+                }
             }
         }
     }

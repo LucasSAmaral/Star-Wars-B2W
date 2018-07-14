@@ -18,12 +18,19 @@
 
     @media screen and (min-width: 320px) and (max-width: 1023px){
       width: 100%;
-     height: auto;
+      height: auto;
+    }
 
+    @media (min-width: 630px) and (max-width: 766px) {
+      width: 50%;
     }
 
      &.big {
        transform: scale(1);
+
+       @media screen and (min-width: 767px) and (max-width: 1023px){
+         transform: scale(0.4);
+       }
      }
    }
  }

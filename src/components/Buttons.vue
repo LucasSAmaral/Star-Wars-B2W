@@ -20,11 +20,17 @@
                 padding: 12px 15px;
                 border-radius: 2px;
                 text-decoration: none;
-                margin-left: 15px;
                 font-weight: bold;
                 border: none;
                 font-size: 16px;
                 cursor: pointer;
+                margin-bottom: 20px;
+                text-align: center;
+
+                @media (min-width: 767px) {
+                    margin-bottom: 0;
+                    margin-left: 15px;
+                }
 
             &:first-child {
                 margin-left: 0;
