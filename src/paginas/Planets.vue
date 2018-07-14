@@ -3,20 +3,21 @@
 
     <div class="planets__content">
         <h1 class="planets__name">
-            Planet Name
+            {{planets.name}}
         </h1>
 
-        <p>Population: 2000000</p>
+        <p>Population: {{planets.population}}</p>
 
-        <p>Climate: arid</p>
+        <p>Climate: {{planets.climate}}</p>
 
-        <p>Terrain: desert</p>
+        <p>Terrain: {{planets.terrain}}</p>
 
-        <p>Featured in nfilms</p>
+        <p>Featured in {{planets.films.length}} films</p>
     </div>
     <div class="planets__buttons">
-        <button class="button">Next</button>
+        <button @click="randomPlanet()" class="button">Next</button>
         <Buttons class="button" text="Home" path="/"></Buttons>
+        <Buttons class="button" text="About Me" path="aboutme"></Buttons>
     </div>
     
 
@@ -27,7 +28,25 @@
     import Buttons from '@/components/Buttons'
     export default {
         name: 'Planets',
-        components: {Buttons}
+        components: {Buttons},
+        data() {
+            return {
+                planets: ''
+            }
+        },
+        methods: {
+            randomPlanet: function() {
+                let randomNumber = Math.floor(Math.random() * (61 - 1 + 1)) + 1;
+
+                this.$http.get('https://swapi.co/api/planets/' + randomNumber)
+                .then(response=>{
+                    this.planets = response.data
+                });
+            }
+        },
+        created() {
+            this.randomPlanet();
+        }
     }
 </script>
 
@@ -50,9 +69,11 @@
             flex-direction: column;
             justify-content: center;
             border-radius: 5px;
+            padding: 10px;
 
             p {
                 text-align: center;
+                letter-spacing: 3px;
             }
 
         }
@@ -62,6 +83,7 @@
             border-bottom: 1px solid #e1b100;
             margin: 0;
             padding: 20px 0px;
+            letter-spacing: 3px;
         }
 
         &__buttons {
