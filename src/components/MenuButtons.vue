@@ -1,8 +1,8 @@
 <template>
     <div class="content__menu hide">
-        <Buttons class="content__menu--button" text="Play Game" path="planets"></Buttons>
-        <Buttons class="content__menu--button" text="About Star Wars" path="aboutstarwars"></Buttons>
-        <Buttons class="content__menu--button" text="About Me" path="aboutme"></Buttons>
+        <Buttons class="button" text="Play Game" path="planets"></Buttons>
+        <Buttons class="button" text="About Star Wars" path="aboutstarwars"></Buttons>
+        <Buttons class="button" text="About Me" path="aboutme"></Buttons>
     </div>
 </template>
 
@@ -24,21 +24,6 @@
             transition: 4s;
             &.hide {
                 opacity: 0;
-            }
-
-            &--button {
-                font-family: 'News Cycle', sans-serif;
-                background-color: #e1b100;
-                color: #000;
-                padding: 12px 15px;
-                border-radius: 2px;
-                text-decoration: none;
-                margin-left: 15px;
-                font-weight: bold;
-
-                &:first-child {
-                    margin-left: 0;
-                }
             }
         }
     }
