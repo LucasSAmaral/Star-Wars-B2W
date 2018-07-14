@@ -64,7 +64,8 @@
 
     .planets {
         &__container {
-            width: 300px;
+            max-width: 500px;
+            width: 100%;
             height: 100vh;
             margin: 0 auto;
             color: #e1b100;

@@ -15,7 +15,7 @@
 .loading {
     &__container {
         position: absolute;
-        width: 93%;
+        width: 100%;
         justify-content: center;
         display: flex;
     }
