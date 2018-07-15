@@ -2,10 +2,16 @@
 <div class="about__container">
     <div class="about__content">
         <h1 class="about__title">
-            About Star Wars
+            About The App
         </h1>
 
-        <p>Something here...</p>
+        <p><a href="http://somos.b2wdigital.com/">B2W digital</a> proposed me this challenge to create a game that shows a random planet and its characteristics like: population, climate, terrain and in how many films this planet has been featured in.</p>
+        <p>To make this game, I used the following stack:</p>
+        <ul>
+            <li>Vue.js</li>
+            <li>CSS (SCSS)</li>
+            <li>And a bit (just a little bit) of jQuery</li>
+        </ul>
     </div>
 
     <div class="about__buttons">

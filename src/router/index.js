@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/paginas/Home'
 import Planets from '@/paginas/Planets'
-import AboutStarWars from '@/paginas/AboutStarWars'
+import AboutTheApp from '@/paginas/AboutTheApp'
 import AboutMe from '@/paginas/AboutMe'
 
 Vue.use(Router)
@@ -20,9 +20,9 @@ export default new Router({
       component: Planets
     },
     {
-      path: '/aboutstarwars',
-      name: 'AboutStarWars',
-      component: AboutStarWars
+      path: '/abouttheapp',
+      name: 'AboutTheApp',
+      component: AboutTheApp
     },
     {
       path: '/aboutme',

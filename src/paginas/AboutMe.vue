@@ -8,12 +8,14 @@
         <p>I've been a Star Wars fan since I was 8 years old. I grew up watching the movies over and over again and also playing some Star Wars games. Actually, I do all of this until today.</p>
         <p>Now. Talking about my professional life. I've been working as a Front-End Developer since the beginning of 2015.</p>
         <p>During these 3 years of experience, I've been working on the TIM Brasil's website. Helping with the website's maintenance and creating new landing pages when it's needed.</p>
-        <p>Check out my <a target="_blank" href="https://github.com/LucasSAmaral">GitHub</a> and <a target="_blank" href="https://www.linkedin.com/in/lucas-amaral-193a459b/">LinkedIn</a> profiles.</p>
+        <p>Now I'm looking for an oppotunity to grow up profissionaly. An oppotunity that makes me think outside the box and gets me go out my "confort zone".</p>
+        <p>Check out my <a target="_blank" href="https://github.com/LucasSAmaral">GitHub</a> and <a target="_blank" href="https://www.linkedin.com/in/lucas-amaral-193a459b/">LinkedIn</a> profiles and get in touch with me. I'm having a good feeling about this.</p>
+        <p>May the force be with you, always.</p>
     </div>
     <div class="about__buttons">
         <Buttons class="button" text="Play Game" path="planets"></Buttons>
         <Buttons class="button" text="Home" path="/"></Buttons>
-        <Buttons class="button" text="About Star Wars" path="aboutstarwars"></Buttons>
+        <Buttons class="button" text="About The App" path="abouttheapp"></Buttons>
     </div>
 </div>
 </template>
