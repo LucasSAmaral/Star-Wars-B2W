@@ -1,34 +1,84 @@
-<div style="text-align: center">
-    <h1>Star Wars Planets</h1>
-</div>
+<h1 align="center">Star Wars Planets</h1>
 
-# b2w-star-wars
+<h2 align="center"><img src="https://www.mysoti.com/img/user/angold01/product/web/1447319/1447319_show_default.png" width="500" alt="Millenium Falcon"></img></h2>
 
-> Desafio proposto pela B2W.
+## Descrição
 
-## Build Setup
+Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de um jogo que serve como base para adivinhar o nome de um planeta existente na mitologia Star Wars, através de informações como: população, clima, terreno e em quantos filmes o planeta apareceu. O planeta será sorteado pela aplicação.
+
+## Sumário
+
++ Star Wars Planets
+    + Regras de jogo
+    + Como jogar?
+        + Na internet
+        + Localmente
+            + Primeira Etapa
+            + Segunda Etapa
+    + Como foi feito?
+
+### Star Wars Planets
+
+#### Regras de jogo
+
+As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erors até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro. É muito mais legal se duas ou mais pessoas estiverem participando do jogo.
+
+#### Como jogar?
+
+Digamos que duas pessoas irão começar a jogar Star Wars Planets. Uma vai fazer as perguntas e a outra irá tentar adivinhar o nome do planeta.
+
+A primeira pessoa, assim que o menu carregar, vai clicar no botão "Play Game". Assim que ela tiver clicado, um planeta será sorteado e suas características serão apresentadas. A primeira pessoa pode perguntar, por exemplo, qual planeta no universo Star Wars possui o clima árido, ou que possua somente oceanos em sua superfície.
+
+Se a segunda pessoa acertar, a primeira pessoa vai clicar em no botão "Next" para que um outro planeta seja sorteado.
+
+##### Na internet
+
+Você não precisa ser um cavaleiro Jedi para ser um seguidor da Força.
+
+Caso queira jogar em qualquer lugar, basta acessar o seguinte endereço: https://star-wars-b2w-lucas-amaral.netlify.com/#/
+
+##### Localmente
+
+Agora, caso você queira se aprofundar e saber mais sobre os caminhos da Força, vamos ter que cumprir algumas etapas.
+
+###### Primeira Etapa
+
+Você vai precisar instalar o node.js no seu computador. O instalador pode ser baixado [aqui](https://nodejs.org/en/download/).
+
+Agora vamos abrir o terminal e seguir para a próxima etapa.
+
+Mas antes. Caso você não tenha nenhum terminal instalado, você pode baixar os instalador nos seguintes links:
+
+Se você for usuário de Windows, [clique aqui](https://gitforwindows.org/).
+
+Caso use Linux ou Mac, [clique aqui](https://git-scm.com/downloads). Nesse link há também uma opção de download para Window.
+
+Agora sim. Vamos para a segunda etapa.
+
+###### Segunda Etapa
+
+Agora você já é um Padawan. E sua primeira missão será clonar o repositório para a sua máquina.
+
+Abra o terminal e digite o seguinte:
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+git clone https://github.com/LucasSAmaral/Star-Wars-B2W.git
 ```
+Espere até que todo o repositório seja baixado e digite:
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+``` bash
+cd Star-Wars-B2W
+```
+Agora que você entrou na pasta do projeto, será necessário instalar todas as dependências para que o jogo possa rodar no seu computador. Para isso, digite o comando abaixo e espere a instalação terminar.
+
+``` bash
+npm install
+```
+Por fim, você vai precisar do último comando abaixo para começar a jogar. 
+
+``` bash
+npm run dev
+```
+Missão cumprida, jovem Padawan. Eu sabia que a Força é forte em você.
+
+Acesse o endereço http://localhost:8080/#/ e comece a jogar.
