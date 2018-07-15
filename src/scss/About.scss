@@ -27,6 +27,10 @@
             color: #12c9e8;
             line-height: 1.5;
 
+            @media (min-width: 767px) {
+                font-size: 14px;
+            }
+
             a {
                 text-decoration: none;
                 color: #e1b100;
