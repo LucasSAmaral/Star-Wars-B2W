@@ -1,6 +1,6 @@
 <template>
     <div class="content__menu hide">
-        <Buttons class="button" text="Play Game" path="planets"></Buttons>
+        <Buttons id="play-game" class="button" text="Play Game" path="planets"></Buttons>
         <Buttons class="button" text="About The App" path="abouttheapp"></Buttons>
         <Buttons class="button" text="About Me" path="aboutme"></Buttons>
     </div>

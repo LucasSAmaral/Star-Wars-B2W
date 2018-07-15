@@ -10,7 +10,7 @@
     <div class="planets__buttons">
         <button @click="randomPlanet()" class="button">Next</button>
         <Buttons class="button" text="Home" path="/"></Buttons>
-        <Buttons class="button" text="About Me" path="aboutme"></Buttons>
+        <Buttons id="aboutme" class="button" text="About Me" path="aboutme"></Buttons>
     </div>
     
 </div>   
