@@ -21,7 +21,7 @@ Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de
 
 #### Regras de jogo
 
-As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erors até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro. É muito mais legal se duas ou mais pessoas estiverem participando do jogo.
+As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erros até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro. É muito mais legal se duas ou mais pessoas estiverem participando do jogo.
 
 #### Como jogar?
 
@@ -47,7 +47,7 @@ Você vai precisar instalar o node.js no seu computador. O instalador pode ser b
 
 Agora vamos abrir o terminal e seguir para a próxima etapa.
 
-Mas antes. Caso você não tenha nenhum terminal instalado, você pode baixar os instalador nos seguintes links:
+Mas antes. Caso você não tenha nenhum terminal instalado, você pode baixar o instalador nos seguintes links:
 
 Se você for usuário de Windows, [clique aqui](https://gitforwindows.org/).
 
