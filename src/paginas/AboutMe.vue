@@ -14,7 +14,7 @@
     <div class="about__buttons">
         <Buttons class="button" text="Play Game" path="planets"></Buttons>
         <Buttons class="button" text="Home" path="/"></Buttons>
-        <Buttons class="button" text="About The App" path="abouttheapp"></Buttons>
+        <Buttons id="abouttheapp" class="button" text="About The App" path="abouttheapp"></Buttons>
     </div>
 </div>
 </template>

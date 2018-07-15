@@ -17,6 +17,8 @@ module.exports = {
       .waitForElementVisible('.planets__content', 2000)
       .click('#aboutme')
       .waitForElementVisible('.about__content', 2000)
+      .click('#abouttheapp')
+      .waitForElementVisible('.about__content', 2000)
       .end()
   }
 }
