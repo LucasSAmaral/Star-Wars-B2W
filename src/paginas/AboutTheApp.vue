@@ -5,7 +5,7 @@
             About The App
         </h1>
 
-        <p><a href="http://somos.b2wdigital.com/">B2W digital</a> proposed me this challenge to create a game that shows a random planet and its characteristics like: population, climate, terrain and in how many films this planet has been featured in.</p>
+        <p><a href="http://somos.b2wdigital.com/">B2W Digital</a> proposed me this challenge to create a game that shows a random planet and its characteristics like: population, climate, terrain and in how many films this planet has been featured in.</p>
         <p>To make this game, I used the following stack:</p>
         <ul>
             <li>Vue.js</li>
