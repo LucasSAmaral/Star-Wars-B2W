@@ -9,7 +9,7 @@ Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de
 ## Sumário
 
 + Star Wars Planets
-    + Regras de jogo
+    + Regras do jogo
     + Como jogar?
         + Na internet
         + Localmente
