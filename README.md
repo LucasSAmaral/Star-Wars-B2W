@@ -93,7 +93,7 @@ Para desenvolver a aplicação, utilizei as seguintes tecnologias:
 
 * jQuery para fazer as transições da versão desktop da página principal.
 
-* Foi utilizada a API [SWAPI][https://swapi.co], que possui uma base de dados com informações sobre planetas, naves, veículos, espécies e personagens do universo Star Wars.
+* Foi utilizada a API [SWAPI](https://swapi.co), que possui uma base de dados com informações sobre planetas, naves, veículos, espécies e personagens do universo Star Wars.
 
 * Foi feito um Teste Unitário para checar a renderização dos componentes. Use o seguinte comando para rodar esse teste:
     
