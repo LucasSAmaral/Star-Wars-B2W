@@ -2,10 +2,11 @@
 <div class="planets__container">
 
     <div class="planets__content">
-        
+
+        <Loading v-show="loading"></Loading>   
+
         <randomPlanets :planets="this.planets"></randomPlanets>
 
-        <Loading v-show="loading"></Loading>
     </div>
     <div class="planets__buttons">
         <button @click="randomPlanet()" class="button">Next</button>
