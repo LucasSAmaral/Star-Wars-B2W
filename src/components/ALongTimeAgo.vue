@@ -1,5 +1,5 @@
 <template>
-    <div v-show="show" class="ALongTimeAgo__container">
+    <div v-if="show" class="ALongTimeAgo__container">
 
         <div class="ALongTimeAgo__background">
 

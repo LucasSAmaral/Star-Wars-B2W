@@ -15,10 +15,10 @@
 .loading {
     &__container {
         position: absolute;
-        width: 100%;
+        width: calc(100% - 20px);
         justify-content: center;
         display: flex;
-        top: 30px;
+        top: calc(50% - (245px/2));
     }
 }
 

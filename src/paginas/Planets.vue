@@ -5,7 +5,7 @@
         
         <randomPlanets :planets="this.planets"></randomPlanets>
 
-        <Loading v-if="loading"></Loading>
+        <Loading v-show="loading"></Loading>
     </div>
     <div class="planets__buttons">
         <button @click="randomPlanet()" class="button">Next</button>
