@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de um jogo que serve como base para adivinhar o nome de um planeta existente na mitologia Star Wars, através de informações como: população, clima, terreno e em quantos filmes o planeta apareceu. O planeta será sorteado pela aplicação.
+Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de um jogo que serve como base para adivinhar o nome de um planeta existente no universo Star Wars, através de informações como: população, clima, terreno e em quantos filmes o planeta apareceu. O planeta será sorteado pela aplicação.
 
 ## Sumário
 
@@ -21,7 +21,7 @@ Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de
 
 #### Regras do jogo
 
-As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erros até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro. É muito mais legal se duas ou mais pessoas estiverem participando do jogo.
+As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erros até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro, é muito mais legal se duas ou mais pessoas estiverem participando do jogo.
 
 #### Como jogar?
 
@@ -29,7 +29,7 @@ Digamos que duas pessoas irão começar a jogar Star Wars Planets. Uma vai fazer
 
 A primeira pessoa, assim que o menu carregar, vai clicar no botão "Play Game". Assim que ela tiver clicado, um planeta será sorteado e suas características serão apresentadas. A primeira pessoa pode perguntar, por exemplo, qual planeta no universo Star Wars possui o clima árido, ou que possua somente oceanos em sua superfície.
 
-Se a segunda pessoa acertar, a primeira pessoa vai clicar em no botão "Next" para que um outro planeta seja sorteado.
+Se a segunda pessoa acertar, a primeira pessoa vai clicar no botão "Next" para que um outro planeta seja sorteado.
 
 ##### Na internet
 
@@ -47,7 +47,7 @@ Você vai precisar instalar o node.js no seu computador. O instalador pode ser b
 
 Agora vamos abrir o terminal e seguir para a próxima etapa.
 
-Mas antes. Caso você não tenha nenhum terminal instalado, você pode baixar o instalador nos seguintes links:
+Mas antes, caso você não tenha nenhum terminal instalado, você pode baixar o instalador nos seguintes links:
 
 Se você for usuário de Windows, [clique aqui](https://gitforwindows.org/).
 
