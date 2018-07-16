@@ -19,7 +19,7 @@ Este é um desafio proposto pela B2W Digital, que consiste no desenvolvimento de
 
 ### Star Wars Planets
 
-#### Regras de jogo
+#### Regras do jogo
 
 As regras ficam à critério dos jogadores. Eles podem decidir sobre o número de tentativas e erros até passar a vez, quantas vezes pode-se pular para que assim outro planeta seja sorteado e etc. E claro. É muito mais legal se duas ou mais pessoas estiverem participando do jogo.
 
@@ -51,9 +51,9 @@ Mas antes. Caso você não tenha nenhum terminal instalado, você pode baixar o 
 
 Se você for usuário de Windows, [clique aqui](https://gitforwindows.org/).
 
-Caso use Linux ou Mac, [clique aqui](https://git-scm.com/downloads). Nesse link há também uma opção de download para Window.
+Caso use Linux ou Mac, [clique aqui](https://git-scm.com/downloads). Nesse link há também uma opção de download para Windows.
 
-Agora sim. Vamos para a segunda etapa.
+Agora sim! Vamos para a segunda etapa.
 
 ###### Segunda Etapa
 
@@ -79,6 +79,35 @@ Por fim, você vai precisar do último comando abaixo para começar a jogar.
 ``` bash
 npm run dev
 ```
-Missão cumprida, jovem Padawan. Eu sabia que a Força é forte em você.
+Missão cumprida, jovem Padawan! Eu sabia que a Força é forte em você!
 
 Acesse o endereço http://localhost:8080/#/ e comece a jogar.
+
+### Como foi feito?
+
+Para desenvolver a aplicação, utilizei as seguintes tecnologias:
+
+* Vue.js para criar os componentes, fazer a navegação por rotas e a requisição à API.
+
+* O pré-processador SASS, para a reutilizar o código CSS em algumas páginas.
+
+* jQuery para fazer as transições da versão desktop da página principal.
+
+* Foi utilizada a API [SWAPI][https://swapi.co], que possui uma base de dados com informações sobre planetas, naves, veículos, espécies e personagens do universo Star Wars.
+
+* Foi feito um Teste Unitário para checar a renderização dos componentes. Use o seguinte comando para rodar esse teste:
+    
+``` bash
+npm run unit
+```
+* Foram feitos também Testes e2e, para verificar a navegação do aplicativo. Use o seguinte comando para rodar o teste end-to-end:
+
+``` bash
+npm run e2e
+```
+
+Caso queira rodar os dois testes com um só comando, utilize:
+
+``` bash
+npm run test
+```
