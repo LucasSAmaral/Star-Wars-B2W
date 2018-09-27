@@ -44,7 +44,7 @@
 
                 setTimeout(()=>{
                     this.loading = false;
-                },1000);
+                },1300);
             }
         },
         created() {

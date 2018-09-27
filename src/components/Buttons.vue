@@ -26,6 +26,7 @@
                 cursor: pointer;
                 margin-bottom: 20px;
                 text-align: center;
+                outline: none;
 
                 @media (min-width: 767px) {
                     margin-bottom: 0;
