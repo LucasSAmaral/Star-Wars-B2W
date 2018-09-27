@@ -19,6 +19,7 @@
         justify-content: center;
         display: flex;
         top: calc(50% - (245px/2));
+        background-color: #000000;
     }
 }
 
