@@ -33,7 +33,7 @@ export default {
       let randomNumber = Math.floor(Math.random() * (61 - 1 + 1)) + 1;
 
       this.$http
-        .get("https://swapi.dev/api/planets/" + randomNumber)
+        .get("https://swapi.dev/api/planets/" + randomNumber + "/")
         .then((response) => {
           this.planets = response.data;
         });
